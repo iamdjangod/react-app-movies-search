@@ -20,6 +20,7 @@ const Search = (props) => {
 
     return (
         <div className="search">
+            <h4>Hello! search for movies by typing the title</h4>
             <input type="search" name="movie-search" value={props.defaultTitle} onChange={props.search} />
             {resultList}
         </div>
