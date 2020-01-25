@@ -10,13 +10,13 @@
         4. Navigate to Local URL:PORT ** or check out screenshots of working demo version of App.**
 
 
-        ![Image 1](docs/1.png)
+        ![Image 1](React/docs/1.png)
        
-        ![Image 2](docs/2.png)
+        ![Image 2](React/docs/2.png)
 
-        ![Image 3](docs/3.png)
+        ![Image 3](React/docs/3.png)
 
-        ![Image 4](docs/4.png)
+        ![Image 4](React/docs/4.png)
 
 
 ## Django
