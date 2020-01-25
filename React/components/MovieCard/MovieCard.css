@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.movie-card {
+    background: #ffffff;
+    box-shadow: 0px 6px 18px rgba(0,0,0,.1);
+    width: 100%;
+    max-width: 290px;
+    margin: 2em;
+    border-radius: 10px;
+    display:inline-block;
+    z-index: 10;
+}
+
+.movie-header {
+    padding:0;
+    margin: 0;
+    height: 434px;
+    width: 100%;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    background-size: cover;
+}
+
+.movie-content {
+    padding: 18px 18px 24px 18px;
+    margin: 0;
+}
+
+.movie-content-header, .movie-info {
+    display: table;
+    width: 100%;
+}
+
+.movie-title {
+    font-size: 24px;
+    margin: 0;
+    display: table-cell;
+    cursor: pointer;
+}
+
+.movie-title:hover {
+    color:rgb(228, 194, 42);
+}
+
+.movie-info {
+    margin-top: 1em;
+}
+
+.info-section {
+    display: table-cell;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+.info-section:first-of-type {
+    text-align:left;
+}
+
+.info-section:last-of-type {
+    text-align:right;
+}
+
+.info-section label {
+    display: block;
+    color: rgba(0,0,0,.5);
+    margin-bottom: .5em;
+    font-size: 9px;
+}
+
+.info-section span {
+    font-weight: 700;
+    font-size: 11px;
+}
+
+@media only screen and (max-width: 400px) {
+    .movie-header {
+        height: 400px;
+    }
+}
